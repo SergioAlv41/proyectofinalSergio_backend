@@ -1,0 +1,21 @@
+{
+  "name": "proyectofinalsergio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "set NODE_ENV=development&& node App.js",
+    "prod": "set NODE_ENV=production&& node App.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongodb": "^4.11.0",
+    "mongoose": "^6.7.2",
+    "mongoose-paginate-v2": "^1.7.1"
+  }
+}
